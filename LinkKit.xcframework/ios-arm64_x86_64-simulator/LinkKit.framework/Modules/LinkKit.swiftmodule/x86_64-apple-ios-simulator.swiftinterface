@@ -63,7 +63,7 @@ open class Handler {
   @objc deinit
 }
 public struct LinkToken {
-  public static func parse(string linkToken: Swift.String) -> (LinkKit.LinkToken?, LinkKit.LinkError?)
+  public static func parse(string linkToken: Swift.String) -> Swift.Result<LinkKit.LinkToken, LinkKit.LinkError>
 }
 public struct LinkKitSheetModifier : SwiftUI.ViewModifier {
   public init(isPresented: SwiftUI.Binding<Swift.Bool>, linkToken: Swift.String, completionHandler: ((LinkKit.LinkResult) -> Swift.Void)?)
