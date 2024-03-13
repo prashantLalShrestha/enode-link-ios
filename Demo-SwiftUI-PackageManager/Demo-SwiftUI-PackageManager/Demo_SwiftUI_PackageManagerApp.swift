@@ -2,7 +2,7 @@
 //  Demo_SwiftUI_PackageManagerApp.swift
 //  Demo-SwiftUI-PackageManager
 //
-//  Copyright 2023 Enode. All rights reserved.
+//  Copyright 2024 Enode. All rights reserved.
 //
 
 import SwiftUI

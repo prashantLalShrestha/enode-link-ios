@@ -63,6 +63,7 @@ open class Handler {
   public func present(from viewController: UIKit.UIViewController)
   @objc deinit
 }
+public func linkKitVersion() -> Swift.String
 public struct LinkToken {
   public static func parse(string linkToken: Swift.String) -> Swift.Result<LinkKit.LinkToken, LinkKit.LinkError>
 }

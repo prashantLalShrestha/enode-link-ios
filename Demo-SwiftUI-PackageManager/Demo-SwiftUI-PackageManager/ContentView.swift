@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  Demo-SwiftUI-PackageManager
 //
-//  Copyright 2023 Enode. All rights reserved.
+//  Copyright 2024 Enode. All rights reserved.
 //
 
 import LinkKit
@@ -50,9 +50,5 @@ struct ContentView_Previews: PreviewProvider {
 }
 
 func versionString() -> String {
-    let linkKitBundle = Bundle(for: Handler.self)
-    let linkKitVersion = linkKitBundle.object(forInfoDictionaryKey: "CFBundleShortVersionString")!
-    let linkKitBuild = linkKitBundle.object(forInfoDictionaryKey: kCFBundleVersionKey as String)!
-    let linkKitName = linkKitBundle.object(forInfoDictionaryKey: kCFBundleNameKey as String)!
-    return "\(linkKitName) \(linkKitVersion) (Build \(linkKitBuild))"
+    return "LinkKit \(linkKitVersion()) (Build \(LinkKitVersionNumber))"
 }
