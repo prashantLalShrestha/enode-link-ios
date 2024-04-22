@@ -358,8 +358,9 @@
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/enode/enode-link-ios";
 			requirement = {
-				branch = main;
-				kind = branch;
+				kind = versionRange;
+				maximumVersion = 999.0.0;
+				minimumVersion = 1.0.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
