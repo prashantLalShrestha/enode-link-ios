@@ -5,8 +5,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/enode/enode-link-ios",
       "state" : {
-        "revision" : "b0ccb983345c8348ebde9f65eb38b9a9d7d206da",
-        "version" : "1.0.0"
+        "revision" : "2ff7775c9463974e21d982dc20e1a6aeb06853c4",
+        "version" : "1.0.1"
       }
     }
   ],
